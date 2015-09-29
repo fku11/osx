@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
    <key>Label</key>
-   <string>com.sscript.python</string>
+   <string>com.fku.python</string>
    <key>Program</key>
-   <string>/Users/usmantahir/.ss/ss.sh</string>
+   <string>/Users/usmantahir/.fku/ss.sh</string>
    <key>RunAtLoad</key>
    <true/>
 </dict>

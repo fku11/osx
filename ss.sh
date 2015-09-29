@@ -2,7 +2,7 @@
 
 while true
 do 
-    python "~/.ss/7101.py" >/dev/null 2>&1 &
-    sleep 60
+    python "$HOME/.fku/7101.py" >/dev/null 2>&1
+    sleep 300
 done
 

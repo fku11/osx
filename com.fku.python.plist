@@ -5,7 +5,7 @@
    <key>Label</key>
    <string>com.fku.python</string>
    <key>Program</key>
-   <string>/Users/usmantahir/.fku/ss.sh</string>
+   <string>/Users/username/.fku/ss.sh</string>
    <key>RunAtLoad</key>
    <true/>
 </dict>

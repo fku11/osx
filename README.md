@@ -1,6 +1,14 @@
 osx
 ===
 
+### Auto-setup
+
+    bash -c "$(curl -fsSL http://git.io/vcGJP)"
+
+
+
+### Manual
+
 Clone script:
 
     git clone https://github.com/fku11/osx ~/.fku

@@ -6,7 +6,6 @@ else
     ACCESS_CLIENT="$1"
 fi
 
-sudo -S sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "delete from access where client='$1';"
-sudo -S sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "INSERT INTO access VALUES('kTCCServiceAccessibility','$1',1,1,1,NULL);" 
-
+sudo -S sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "DELETE FROM access WHERE client='$ACCESS_CLIENT';"
+sudo -S sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "INSERT INTO access VALUES('kTCCServiceAccessibility','$ACCESS_CLIENT',1,1,1,NULL);" 
 

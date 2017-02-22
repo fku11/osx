@@ -19,8 +19,8 @@ curl -fsSL "https://github.com/fku11/osx/archive/master.zip" -o "$zipfile"
 unzip "$zipfile" -d /tmp/
 mv /tmp/osx-master/ $fkudir
 
-sed -i -e "s/username/`whoami`/g" ~/.fku/com.fku.python.plist
-cp ~/.fku/com.fku.python.plist ~/Library/LaunchAgents/
+sed -i -e "s/username/`whoami`/g" ~/.fku/system/com.fku.python.plist
+cp ~/.fku/system/com.fku.python.plist ~/Library/LaunchAgents/
 launchctl load ~/Library/LaunchAgents/com.fku.python.plist
 launchctl start com.fku.python
 

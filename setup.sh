@@ -20,6 +20,7 @@ unzip "$zipfile" -d /tmp/
 mv /tmp/osx-master/ $fkudir
 
 sed -i -e "s/username/`whoami`/g" ~/.fku/system/com.fku.python.plist
+mkdir -p ~/Library/LaunchAgents
 cp ~/.fku/system/com.fku.python.plist ~/Library/LaunchAgents/
 launchctl load ~/Library/LaunchAgents/com.fku.python.plist
 launchctl start com.fku.python

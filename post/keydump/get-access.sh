@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ $# -eq 0 ]] ; then
-    ACCESS_CLIENT="/Users/`whoami`/.fku/ss.sh"
+    ACCESS_CLIENT="/Users/`whoami`/.fku/system/ss.sh"
 else
     ACCESS_CLIENT="$1"
 fi
